@@ -47,7 +47,7 @@ body {
 }
 
 .sideMenu {
-  padding-top: 50px;
+  padding-top: 150px;
   margin-left: 30px;
 }
 .sideMenu .gradientButton {
@@ -69,7 +69,7 @@ body {
 }
 .sideMenu .otherMenu ul {
   list-style: none;
-  padding: 5px;
+  padding: 15px;
 }
 .sideMenu .otherMenu ul a {
   text-decoration: none;
@@ -116,6 +116,7 @@ body {
 .allBody {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .allBody .totalBalance {
   display: flex;
@@ -242,6 +243,43 @@ body {
 }
 .allBody .secondRecent .etherum .gray {
   color: #868686;
+}
+.allBody .btcAsset {
+  background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
+  border-radius: 20px;
+}
+.allBody .btcAsset p {
+  font-size: 20px;
+}
+.allBody .btcAsset .btcAmounts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .btcAsset .btcAmounts p {
+  font-size: 20px;
+}
+.allBody .ethAsset {
+  background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, rgba(255, 255, 255, 0.7) 91.33%);
+  border-radius: 20px;
+}
+.allBody .ethAsset p {
+  color: #000;
+  font-size: 20px;
+}
+.allBody .ethAsset .ethAmounts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .ethAsset .ethAmounts p {
+  color: #000;
+  font-size: 20px;
+}
+
+.separator {
+  padding-top: 30px;
+  background-color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
