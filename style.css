@@ -97,6 +97,10 @@ body {
   color: #868686;
 }
 
+.topMenu {
+  display: flex;
+  flex-direction: column;
+}
 .topMenu .totalBTC {
   display: flex;
   flex-direction: row;
@@ -111,6 +115,19 @@ body {
 }
 .topMenu .totalBTC .yellowBTC p {
   color: #000;
+}
+
+.menuTotal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #979797;
+  border-radius: 15px;
+  gap: 20px;
+}
+.menuTotal .black {
+  background-color: #000;
+  border-radius: 15px;
 }
 
 .allBody {

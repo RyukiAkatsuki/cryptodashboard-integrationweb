@@ -50,6 +50,8 @@
 }
 
 .topMenu {
+    display: flex;
+    flex-direction: column;
     .totalBTC {
         display: flex;
         flex-direction: row;
@@ -67,16 +69,15 @@
     }
 }
 
-// .menuTotal {
-//     display: flex;
-//     flex-direction: row;
-//     background-color: #979797;
-
-//     ul {
-//         list-style: none;
-//         a {
-//             text-decoration: none;
-//             font-size: 20px;
-//         }
-//     }
-// }
+.menuTotal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #979797;
+    border-radius: 15px;
+    gap: 20px;
+    .black {
+        background-color: #000;
+        border-radius: 15px;
+    }
+}
