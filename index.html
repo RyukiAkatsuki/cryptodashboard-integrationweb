@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -19,24 +20,33 @@
         <img src="src/img/profilepic.png" alt="ProfilePic" class="profilePic">
     </header>
     <!-- Body -->
-    <main>
+    <main class="allBody">
         <!-- Side Menu -->
-        <div>
+        <div class="sideMenu">
             <!-- Gradiant Button -->
-            <a href="#">Dashboard</a>
+            <div class="gradientButton">
+                <i class="fa-solid fa-objects-column"></i> <a href="#">Dashboard</a>
+            </div>
+            <div class="otherMenu">
+                <ul>
+                    <li><i class="fa-solid fa-objects-column"></i> <a href="#">Invoices</a></li>
+                    <li><i class="fa-solid fa-users"></i> <a href="#">Clients</a></li>
+                    <li><i class="fa-light fa-box-taped"></i> <a href="#">Products</a></li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="#">Messages</a></li>
+                    <li><i class="fa-solid fa-gear"></i> <a href="#">Settings</a></li>
+                    <li><i class="fa-solid fa-circle-question"></i> <a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="logout">
+                <ul>
+                    <li><i class="fa-solid fa-sign-out"></i> <a href="#">Logout</a></li>
+                </ul>
+            </div>
         </div>
-        <ul>
-            <li><a href="#">Invoices</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Help</a></li>
-        </ul>
         <!-- Total Balance -->
         <div class="totalBalance">
-            <p>Total Balance</p>
-            <div>
+            <div class="topMenu">
+                <p>Total Balance</p>
                 <!-- BTC -->
                 <div class="totalBTC">
                     <p>0.97894652</p>
@@ -44,7 +54,7 @@
                         <p>BTC</p>
                     </div>
                 </div>
-                <!-- Menu -->
+                <!-- Menu
                 <div class="menuTotal">
                     <ul>
                         <li><a href="#">Portfolio</a></li>
@@ -52,20 +62,19 @@
                         <li><a href="#">Assets</a></li>
                         <li><a href="#">P2P</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <p>$40,123.56</p>
-        </div>
-        <!-- Graph -->
-        <div>
-            <img src="src/img/graph.png" alt="Graph" class="graphImage">
-        </div>
-        <!-- Recent Transactions with see all -->
-        <div class="firstRecent">
-            <div class="first">
-                <h2 class="titleOneRecent">Recent Transactions</h2>
-                <p class="seeAll">See all coins</p>
+            <!-- Graph -->
+            <div>
+                <img src="src/img/graph.png" alt="Graph" class="graphImage">
             </div>
+            <!-- Recent Transactions with see all -->
+            <div class="firstRecent">
+                <div class="first">
+                    <h2 class="titleOneRecent">Recent Transactions</h2>
+                    <p class="seeAll">See all coins</p>
+                </div>
             <div class="recentShort">
                 <div class="bitcoin">
                     <img src="src/img/orangeblackbitcoin.png" alt="BitCoinLogo" class="bitcoinLogo">
@@ -107,9 +116,10 @@
                 </div>
             </div>
         </div>
+        </div>
         <!-- Recent Transactions -->
         <div class="secondRecent">
-            <h2 class="titleTwoRecent"></h2>
+            <h2 class="titleTwoRecent">Recent Transactions</h2>
             <div class="usdt">
                 <img src="src/img/usdtLogo.png" alt="usdtLogo" class="usdtlogo">
                 <div class="recieved">
@@ -144,7 +154,7 @@
                 </div>
             </div>
             <div class="bitcoin">
-                <img src="" alt="" class="bitlogo">
+                <img src="src/img/orangeWhiteBitCoinLogo.png" alt="orangeWhiteLogo" class="bitlogo">
                 <div class="recieved">
                     <p>Bitcoin</p>
                     <p>Recieved</p>
@@ -166,7 +176,7 @@
                 </div>
             </div>
             <!-- Assets -->
-            <h2 class="titleAssets"></h2>
+            <h2 class="titleAssets">Assets</h2>
             <div class="btcAsset">
                 <img src="src/img/whiteBitcoin.png" alt="WhiteLogoBitCoin" class="whiteBitLogo">
                 <p class="btcName">Bitcoin</p>

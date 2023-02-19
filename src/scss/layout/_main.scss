@@ -1,0 +1,53 @@
+.allBody {
+    display: flex;
+    flex-direction: row;
+    .totalBalance {
+        display: flex;
+        flex-direction: column;
+    }
+    .firstRecent {
+        display: flex;
+        flex-direction: column;
+    }
+    .first {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .recentShort {
+        display: flex;
+        flex-direction: column;
+        .bitcoin {
+            display: flex;
+            flex-direction: row;
+        }
+        .etherum {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .secondRecent {
+        display: flex;
+        flex-direction: column;
+        .usdt {
+            display: flex;
+            flex-direction: row;
+        }
+        .bnb {
+            display: flex;
+            flex-direction: row;
+        }
+        .litecoin {
+            display: flex;
+            flex-direction: row;
+        }
+        .bitcoin {
+            display: flex;
+            flex-direction: row;
+        }
+        .etherum {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

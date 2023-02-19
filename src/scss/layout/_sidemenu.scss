@@ -1,0 +1,82 @@
+.sideMenu {
+    padding-top: 50px;
+    margin-left: 30px;
+    .gradientButton {
+        background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+        border-radius: 12px;
+        padding: 10px 20px;
+        a {
+            color: #000000;
+            font-size: 22px;
+            text-decoration: none;
+        }
+        i {
+            color: #000000;
+            font-size: 22px;
+        }
+    }
+    .otherMenu {
+        padding-top: 20px;
+        ul {
+            list-style: none;
+            padding: 5px;
+            a {
+                text-decoration: none;
+                font-size: 25px;
+                color: #868686;
+            }
+            i {
+                font-size: 25px;
+                color: #868686;
+            }
+        }
+    }
+    .logout {
+        padding-top: 20px;
+        ul {
+            list-style: none;
+            padding: 5px;
+            a {
+                text-decoration: none;
+                font-size: 25px;
+                color: #868686;
+            }
+            i {
+                font-size: 25px;
+                color: #868686;
+            }
+        }
+    }
+}
+
+.topMenu {
+    .totalBTC {
+        display: flex;
+        flex-direction: row;
+        p {
+            font-weight: bold;
+        }
+        .yellowBTC {
+            margin-left: 10px;
+            background-color: $third-gradiant;
+            border-radius: 5px;
+            p {
+                color: #000;
+            }
+        }
+    }
+}
+
+// .menuTotal {
+//     display: flex;
+//     flex-direction: row;
+//     background-color: #979797;
+
+//     ul {
+//         list-style: none;
+//         a {
+//             text-decoration: none;
+//             font-size: 20px;
+//         }
+//     }
+// }
