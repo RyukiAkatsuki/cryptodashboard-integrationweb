@@ -1,11 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: #000;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+}
+.nav .hello {
+  color: #fff;
+  padding-top: 25px;
+  font-size: 30px;
+}
+.nav .searchBar {
+  padding-top: 5px;
+}
+.nav .searchBar .searchtwoBar {
+  background-image: url(../src/img/searchLogo.png);
+  background-repeat: no-repeat;
+  padding: 10px 100px 10px 40px;
+  margin: 30px 0 0 30px;
+  border-radius: 10px;
+}
+.nav .notification {
+  padding-top: 25px;
+}
+.nav .profilePic {
+  padding-top: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

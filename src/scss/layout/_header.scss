@@ -1,0 +1,29 @@
+.nav {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+    .hello {
+        color: #fff;
+        padding-top: 25px;
+        font-size: 30px;
+    }
+    .searchBar {
+        padding-top: 5px;
+        .searchtwoBar {
+            background-image: url(../src/img/searchLogo.png);
+            background-repeat: no-repeat;
+            padding: 10px 100px 10px 40px;
+            margin: 30px 0 0 30px;
+            border-radius: 10px;
+        }
+    }
+    .notification {
+        padding-top: 25px;
+    }
+    .profilePic {
+        padding-top: 25px;
+    }
+}
