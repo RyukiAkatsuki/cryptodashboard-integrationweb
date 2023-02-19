@@ -2,7 +2,7 @@
     padding-top: 50px;
     margin-left: 30px;
     .gradientButton {
-        background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+        background: linear-gradient(266.37deg, $third-gradiant -5.82%, $third-gradiant 15.95%, $second-gradiant 41.2%, $first-gradiant 72.88%);
         border-radius: 12px;
         padding: 10px 20px;
         a {

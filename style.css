@@ -51,7 +51,7 @@ body {
   margin-left: 30px;
 }
 .sideMenu .gradientButton {
-  background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+  background: linear-gradient(266.37deg, #fbff00 -5.82%, #fbff00 15.95%, #1972d7 41.2%, #cc00ffbd 72.88%);
   border-radius: 12px;
   padding: 10px 20px;
 }
@@ -120,6 +120,7 @@ body {
 .allBody .totalBalance {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 .allBody .firstRecent {
   display: flex;
@@ -133,38 +134,114 @@ body {
 .allBody .recentShort {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
 .allBody .recentShort .bitcoin {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(33, 36, 44, 0.7);
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.allBody .recentShort .bitcoin .tradeButton {
+  background-color: #000;
+  padding: 15px;
+  border-radius: 25px;
+}
+.allBody .recentShort .bitcoin .blue {
+  color: #1972d7;
+}
+.allBody .recentShort .bitcoin .green {
+  color: green;
+}
+.allBody .recentShort .separator {
+  padding-top: 20px;
+  background-color: #000;
 }
 .allBody .recentShort .etherum {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(33, 36, 44, 0.7);
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.allBody .recentShort .etherum .tradeButton {
+  background-color: #000;
+  padding: 15px;
+  border-radius: 25px;
+}
+.allBody .recentShort .etherum .purple {
+  color: #cc00ffbd;
+}
+.allBody .recentShort .etherum .red {
+  color: red;
 }
 .allBody .secondRecent {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 .allBody .secondRecent .usdt {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .secondRecent .usdt .green {
+  color: green;
+}
+.allBody .secondRecent .usdt .gray {
+  color: #868686;
 }
 .allBody .secondRecent .bnb {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .secondRecent .bnb .green {
+  color: green;
+}
+.allBody .secondRecent .bnb .gray {
+  color: #868686;
 }
 .allBody .secondRecent .litecoin {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .secondRecent .litecoin .red {
+  color: red;
+}
+.allBody .secondRecent .litecoin .gray {
+  color: #868686;
 }
 .allBody .secondRecent .bitcoin {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .secondRecent .bitcoin .green {
+  color: green;
+}
+.allBody .secondRecent .bitcoin .gray {
+  color: #868686;
 }
 .allBody .secondRecent .etherum {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.allBody .secondRecent .etherum .green {
+  color: green;
+}
+.allBody .secondRecent .etherum .gray {
+  color: #868686;
 }
 
 /*# sourceMappingURL=style.css.map */

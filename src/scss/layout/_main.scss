@@ -4,6 +4,7 @@
     .totalBalance {
         display: flex;
         flex-direction: column;
+        padding: 20px;
     }
     .firstRecent {
         display: flex;
@@ -17,37 +18,113 @@
     .recentShort {
         display: flex;
         flex-direction: column;
+        padding-top: 20px;
         .bitcoin {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            background-color: hsla(224, 15%, 15%, 0.7);
+            border-radius: 15px;
+            padding: 5px 10px 5px 10px;
+            .tradeButton {
+                background-color: #000;
+                padding: 15px;
+                border-radius: 25px;
+            }
+            .blue {
+                color: $second-gradiant;
+            }
+            .green {
+                color: green;
+            }
+        }
+        .separator {
+            padding-top: 20px;
+            background-color: #000;
         }
         .etherum {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            background-color: hsla(224, 15%, 15%, 0.7);
+            border-radius: 15px;
+            padding: 5px 10px 5px 10px;
+            .tradeButton {
+                background-color: #000;
+                padding: 15px;
+                border-radius: 25px;
+            }
+            .purple {
+                color: $first-gradiant;
+            }
+            .red {
+                color: red;
+            }
         }
     }
     .secondRecent {
         display: flex;
         flex-direction: column;
+        padding: 20px;
         .usdt {
+            padding-top: 20px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            .green {
+                color: green;
+            }
+            .gray {
+                color: #868686;
+            }
         }
         .bnb {
+            padding-top: 20px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            .green {
+                color: green;
+            }
+            .gray {
+                color: #868686;
+            }
         }
         .litecoin {
+            padding-top: 20px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            .red {
+                color: red;
+            }
+            .gray {
+                color: #868686;
+            }
         }
         .bitcoin {
+            padding-top: 20px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            .green {
+                color: green;
+            }
+            .gray {
+                color: #868686;
+            }
         }
         .etherum {
+            padding-top: 20px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            .green {
+                color: green;
+            }
+            .gray {
+                color: #868686;
+            }
         }
     }
 }
